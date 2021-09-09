@@ -5,31 +5,7 @@ import InstructionComponent from "./InstructionComponent";
 import KeyBoardComponent from "./KeyBoardComponent";
 import StackComponent from "./StackComponent";
 import GameOverComponent from "./GameOverComponent";
-import { failureSound, successSound, updateUserData } from "../utils";
-
-const words = [
-  { word: "cleannesses" },
-  { word: "deceivable" },
-  { word: "enfeebled" },
-  { word: "circumstantial" },
-  { word: "clank" },
-  { word: "rearousing" },
-  { word: "tomcats" },
-  { word: "harmfulness" },
-  { word: "unicolor" },
-  { word: "multimode" },
-  { word: "moundbirds" },
-  { word: "toilsome" },
-  { word: "exchanged" },
-  { word: "cattle" },
-  { word: "epigrapher" },
-  { word: "untitled" },
-  { word: "curricles" },
-  { word: "unicolor" },
-  { word: "reactions" },
-  { word: "wildlings" },
-  { word: "tacklings" },
-];
+import { failureSound, successSound, updateUserData, words } from "../utils";
 
 //This is the main component that renders the game
 const GamePage = () => {

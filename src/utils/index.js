@@ -7,6 +7,35 @@ export const topRow = ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P"];
 export const midRow = ["A", "S", "D", "F", "G", "H", "J", "K", "L"];
 export const endRow = ["Z", "X", "C", "V", "B", "N", "M"];
 
+
+//words that are being sent
+export const words = [
+  { word: "cleannesses" },
+  { word: "deceive" },
+  { word: "enfeebl" },
+  { word: "circumstance" },
+  { word: "clank" },
+  { word: "rearousing" },
+  { word: "tomcats" },
+  { word: "harmfulness" },
+  { word: "unicolor" },
+  { word: "multimode" },
+  { word: "moundbirds" },
+  { word: "toilsome" },
+  { word: "exchanged" },
+  { word: "cattle" },
+  { word: "epigrapher" },
+  { word: "untitled" },
+  { word: "curricles" },
+  { word: "unicolor" },
+  { word: "reactions" },
+  { word: "wildlings" },
+  { word: "tacklings" },
+  { word: "sports" },
+  { word: "game" },
+  { word: "soccer" },
+];
+
 //api base url
 const Api = "https://word-race-node.herokuapp.com/api/";
 
