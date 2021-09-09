@@ -35,7 +35,7 @@ const words = [
 const GamePage = () => {
   const [open, setOpen] = useState(true);
   const [end, setEnd] = useState(false);
-  const [time, setTime] = useState(2000);
+  const [time, setTime] = useState(4000);
   const [stackedWords, setStackedWords] = useState([]);
   const [activeWord, setActiveWord] = useState("");
   const [activeId, setActiveId] = useState(0);
@@ -123,7 +123,7 @@ const GamePage = () => {
         }
         setCurrentInput(newInput);
       } else {
-        // failureSound();
+        failureSound();
         setCurrentInput("");
         setMultiplier(1);
       }
