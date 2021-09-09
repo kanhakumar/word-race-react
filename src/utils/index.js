@@ -8,7 +8,7 @@ export const midRow = ["A", "S", "D", "F", "G", "H", "J", "K", "L"];
 export const endRow = ["Z", "X", "C", "V", "B", "N", "M"];
 
 //api base url
-const Api = "https://dashboard.heroku.com/api/";
+const Api = "https://word-race-node.herokuapp.com/api/";
 
 //api call that checks and fetches user
 export const signIn = async (email) => {
