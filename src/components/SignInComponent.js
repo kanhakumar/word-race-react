@@ -44,7 +44,7 @@ function SignInComponent() {
     if (!isUser) {
       //is fetching the user data if already signed up
       const response = await signIn(email);
-      if (response.data.success) {
+      if (response?.data?.success) {
         window.location = "/game";
       } else {
         postUser();

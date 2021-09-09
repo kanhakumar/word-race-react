@@ -15,11 +15,13 @@ export const signIn = async (email) => {
   const response = await axios.post(Api + "user/getUser", {
     email,
   });
-  if (response.data.success) {
-    window.localStorage.setItem(EMAIL, email);
-    window.localStorage.setItem(USER_ID, response.data.user._id);
+  if (response) {
+    if (response.data.success) {
+      window.localStorage.setItem(EMAIL, email);
+      window.localStorage.setItem(USER_ID, response.data.user._id);
+    }
+    return response;
   }
-  return response;
 };
 
 //api call to add a user
